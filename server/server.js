@@ -6,7 +6,7 @@ require('./Connection/Db')
 
 const {Configuration , OpenAIApi} = require('openai')
 const Config = new Configuration({
-    apiKey:'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',
+    apiKey:'enter your api key',
 })
 const openai = new OpenAIApi(Config)
 app.use(cors())
