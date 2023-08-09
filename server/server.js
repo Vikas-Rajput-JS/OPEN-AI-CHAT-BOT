@@ -24,7 +24,7 @@ app.post('/users',(req,res)=>{
 app.post('/login',async(req,res)=>{
     const Data = await User.findOne(req.body);
     if (Data) {
-      res.send(Data);
+      res.send(await Data);
     } else {
       res.send({ Result: "Not Found" });
     }
