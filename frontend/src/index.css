@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ysabeau+SC:wght@300;400&display=swap');
+.response::-webkit-scrollbar{
+    display:none!important ;
+  }
