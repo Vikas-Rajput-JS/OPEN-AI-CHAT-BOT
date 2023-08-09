@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "start",
-    "start": "nodemon"
+    "start": "nodemon --unhandled-rejections=strict"
    
   },
   "author": "Vikas Rajput",
